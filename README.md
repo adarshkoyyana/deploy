@@ -57,21 +57,32 @@ npm start
 The frontend application will start on http://localhost:3000
 
 # API Endpoints
-Authentication
+1. Authentication
 POST /register: Register a new user.
+
 POST /login: Authenticate a user and get a token.
-Properties
+3. Properties
+
 POST /postproperties: Create a new property (Seller only).
+
 GET /properties: Get all properties.
+
 GET /properties/:id: Get a single property.
+
 PUT /properties/:id: Update a property (Seller only).
+
 DELETE /properties/:id: Delete a property (Seller only).
-Interest
+
+4. Interest
+
 POST /properties/:id/interest: Express interest in a property (Buyer only).
 
 # Deployment
+
 Cloud Platform
+
 Vercel
+
 Clever cloud
 
 # Conclusion
